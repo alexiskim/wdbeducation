@@ -1,6 +1,10 @@
 h1 {
     text-align: center;
     margin: 20px;
+    padding: 30px;
+    color: rgb(245, 244, 244);
+    font-size: 28px;
+    background: #962e2e;
 }
 
 .title, h3 {
@@ -10,7 +14,6 @@ h1 {
 
 .title {
     margin: 20px;
-    font-weight: bold;
 }
 
 .align {
@@ -21,8 +24,9 @@ h1 {
 
 .description, .intro-outro {
     margin: 20px;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: normal;
+    line-height: 30px;
 }
 
 body {
@@ -33,33 +37,43 @@ body {
     width: 500px;
     border: 1px #ccc solid;
     margin: 20px;
-    padding: 15px;
+    padding: 20px;
+    line-height: 30px;
 }
 
 #story-title {
     color:#9C1110;
+    text-decoration: underline;
 }
 
 .gameplay {
     width: 500px;
     border: 1px #ccc solid;
     margin: 20px;
-    padding: 15px;
+    padding: 20px;
+    line-height: 30px;
 }
 
 #gameplay-title {
     color: #E44E0B;
+    text-decoration: underline;
+}
+
+#emphasis-on-die {
+    font-weight: bold;
 }
 
 .artstyle {
     width: 500px;
     border: 1px #ccc solid;
     margin: 20px;
-    padding: 15px;
+    padding: 20px;
+    line-height: 30px;
 }
 
 #artstyle-title {
     color: #F7B00A;
+    text-decoration: underline;
 }
 
 #game-name {
