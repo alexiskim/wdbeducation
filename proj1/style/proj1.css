@@ -1,5 +1,111 @@
 h1 {
-    font-size: 24px;
+    font-size: 60px;
     text-align: center;
+    margin: 20px;
+    margin-bottom: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+h2 {
+    text-align: center;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 30px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+#corgi-image {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
     
+}
+
+.quarter-box {
+    width: 25%;
+    border: 1px #000000 solid;
+    padding: 10px;
+    border-top-width: medium;
+    border-bottom-width: medium;
+    border-left-color: #ccc solid;
+    border-right-color: #ccc solid;
+}
+
+.half-box {
+    width: 50%;
+    border: 1px #000000 solid;
+    padding: 10px;
+    border-top-width: medium;
+    border-bottom-width: medium;
+    border-left-color: #ccc solid;
+    border-right-color: #ccc solid;
+}
+
+#turtles-box {
+    width: 25%;
+    border: 1px #000000 solid;
+    padding: 10px;
+    border-top: none;
+    border-bottom-width: medium;
+    border-left-color: #ccc solid;
+    border-right-color: #ccc solid;
+}
+
+.interactive-columns {
+    width: 75%;
+    border: 1px #000000 solid;
+    border-top: none;
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    border-top-width: medium;
+    border-bottom-width: medium;
+    border-left-color: #ccc solid;
+    border-right-color: #ccc solid;
+}
+
+#Politics {
+    color: rgb(102,102,102);
+    background-color: rgb(255,234,167);
+    padding-left: 20px;
+    text-align: left;
+}
+
+#Technology {
+    color: rgb(102,102,102);
+    background-color: rgb(129,236,236);
+    padding-left: 20px;
+    text-align: left;
+
+}
+
+#Local {
+    color: rgb(102,102,102);
+    background-color: rgb(85,239,196);
+    padding-left: 20px;
+    text-align: left;
+
+}
+
+#Opinion {
+    color: rgb(102,102,102);
+    background-color: rgb(116,185,255);
+    padding-left: 20px;
+    text-align: left;
+
+}
+
+#Sports {
+    color: rgb(102,102,102);
+    background-color: rgb(162,155,254);
+    padding-left: 20px;
+    text-align: left;
+
 }
